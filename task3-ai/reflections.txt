@@ -1,0 +1,22 @@
+Ollama would not load due to memory issues. The following is what I would have done if it did load
+
+What prompt did you use to generate the tests? How could the prompt be improved? What challenges did you face forming the prompt?
+
+"Generate tests for a math quiz"
+This could be improved by specifying the age range that the test is intended for.
+It is difficult to form the prompt quickly, a prompt needs to be fairly specific to produce accurate results.
+
+
+Evaluate the AI-generated tests. What did the model do well? What did it struggle with? Would you accept these tests as is to test this system in a production environment? Why or why not?
+
+From my previous expereince with AI generated tests, I would integrate them into a production environment and form additional tests based on what was generated.
+This is because although the tests are typically good, sometimes AI can miss small test cases without additional prompting.
+
+
+If applicable, provide insights on whether the AI-generated tests passed or failed and the effectiveness of the generated tests in terms of code coverage. If you were unable to assess this, please explain why.
+
+Memory issues caused me to not be able to do this.
+
+What are your experiences with using AI tools for testing? Summarize your and your classmates responses in the discussion (e.g., others' experiences, tools used, etc.).
+
+I use ChatGPT to generate tests, typically it does a good job but I've never seen it get more than 85% coverage for longer, more complicated programs.
