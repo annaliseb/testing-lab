@@ -1,0 +1,16 @@
+Which uncovered code paths were most likely to hide real bugs? Why?
+
+Code paths that focused on calculated outputs. These would raise more errors if there were a problem.
+
+This activity only focuses on line coverage. Add the --cov-branch argument to include branch coverage for this test suite. What is the branch coverage of the updated test suite, and how would you modify the test cases to increase the branch/path coverage for this program?
+
+89%, I would focus on expected and what is not expected and test both.
+
+
+Compare your experience here to Task 1: if calculator.py had a coverage report before you started, would it have pointed you directly to the buggy lines?
+
+It would not have pointed me directly to the lines but it would have helped me understand where to start looking.
+
+How can the concepts of test coverage and unit testing affect your future development practices?
+
+I know how to apply tests to cover scenarios that I may not have thought about before.

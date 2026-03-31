@@ -1,0 +1,16 @@
+Briefly describe the five errors. How did running the tests help or hurt with debugging the problems in the code?
+
+Subtract was backwards, multiply was named wrong, prime numbers greater than two were false, is even was looking for odd numbers, fizzbuzz was looking at unnecessary factors. The tests showed where the problems may be.
+
+
+Which errors were more difficult to detect than others?
+
+Fizzbuzz was hard to understand.
+
+Conduct a brief review of the code and tests. How can the code and calculator.py and test cases in test_calculator.py be improved?
+
+Could have separated tests into their own file.
+
+With a partner or small group, discuss the following: What is your general experience with unit testing? What tools and frameworks have you used? Do you have prior experience with pytest?
+
+I have used pytest for project and it works well.
