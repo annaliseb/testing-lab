@@ -1,0 +1,31 @@
+After the agent runs, open the generated test file and evaluate it:
+
+Does it test all the functions in quiz.py?
+Does it test edge cases (i.e., empty string, uppercase vs. lowercase, non-alpha characters, etc.)?
+Is the coverage low or are the tests missing important cases?
+What questions were you asked by the agent in the testing and verification process (if applicable)?
+How does the quality compare to what you would write by hand?
+If you were unable to run the agent, please note so here and continue.
+
+
+I was not able to run the agent.
+
+Reflection
+
+With your partner or small group, discuss the following and record your responses:
+
+How did the agentic approach in this task compare to the prompt-based approach for Task 3? Please discuss the process to generate tests in addition to critiquing the output generated tests.
+
+The previous task did not work for me but I liked that this one was available in the terminal and was easy to navigate.
+
+What criteria did you set for the test and verify skills? Why?
+
+I had 90% test coverage because I did not think it was reasonable to expect 100% test coverage.
+
+If you had more time, what other checks and functionality would you include in the agents?
+
+More specific test criteria.
+
+In general, what are your perceptions on the future of testing and maintenance in the age of AI?
+
+AI can be helpful but user input is important to ensure good testing.

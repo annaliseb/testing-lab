@@ -23,4 +23,8 @@ The application features a simple command-line interface that provides a straigh
 
 ### Acceptance Criteria
 
-* TODO: add acceptance criteria
+* Program starts with no errors
+* Display quiz questions
+* Display quiz answers
+* Display answer as right or wrong
+* Program exits

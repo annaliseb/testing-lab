@@ -63,45 +63,11 @@ pytest --cov -v
 ```
 
 **Pass criteria:**
-- TODO: Define specific pass criteria for test integrity (remove this item and list them here)
-<!-- For example:
-- All tests pass. Zero failures, zero errors.
-- Code coverage is 100%. No uncovered lines.
-- Edge cases from acceptance criteria are covered.
-- Test names describe behavior (read them — they should tell a story).
--->
+- You need 90% code coverage with all tests passing. There should be no errors. Make sure test names are specific and describe what is going on.
 
 **If this gate fails:**
-- TODO: Define specific steps to fix test integrity issues (remove this item and list them here)
-<!-- For example:
-- Identify uncovered lines or missing edge cases.
-- Write the missing tests.
-- Fix any failing tests (fix the code, not the test, unless the test is wrong).
-- Re-run until 100% pass and 100% coverage.
--->
----
+- Find edge cases that may not be covered and fix tests when they are failing to meet 90% code coverage.
 
-### Gate 2: Health Check Completeness
-
-Review the implementation code for defensive programming:
-
-**Pass criteria:**
-- TODO: Define specific pass criteria for health check completeness (remove this item and list them here)
-<!-- For example:
-- Error handling exists for every failure mode.
-- Errors produce clear, actionable messages.
-- No silent failures (no bare `except:`, no swallowed exceptions).
-- Graceful degradation for bad input (no crashes, no tracebacks to users).
--->
-
-**If this gate fails:**
-- TODO: Define specific steps to fix health check completeness issues (remove this item and list them here)
-<!-- For example:
-- Add input validation where missing.
-- Add error handling with descriptive messages.
-- Add tests for the new error paths.
-- Re-run Gate 1 to confirm tests still pass.
--->
 ---
 
 ### Gate 3: Deployment Readiness

@@ -108,3 +108,5 @@ ALWAYS:
 
 REPEAT: Tests are executable documentation. Every test name should read like a specification. Use realistic data. Test behavior, not implementation. 
 </instructions>
+
+You are writing tests for the program. Use pytest to do it. Make sure you understand all of the code and tests all branches while writing the tests.
